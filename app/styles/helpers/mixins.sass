@@ -1,0 +1,19 @@
+@mixin text-shadow-medium
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000
+
+@mixin background-base
+    @include text-shadow-medium
+    background-color: $color-base
+    color: $color-base-text
+
+@mixin centered-block
+    margin: 0 auto
+
+@mixin mp-0
+    margin: 0
+    padding: 0
+
+@mixin image-medium
+    @include mp-0
+    width: 125px
+    height: 125px
