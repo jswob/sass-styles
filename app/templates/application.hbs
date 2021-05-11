@@ -1,3 +1,42 @@
-{{page-title "SassStyles"}}
+{{page-title 'SassStyles'}}
+
+<div class='page-layout'>
+  <Header class='page-layout__header' @headline='Sass Styles'>
+    <img
+      class='header__logo'
+      src='/assets/logo/smiled face.png'
+      alt='smiled face'
+    />
+  </Header>
+  <div class='page-layout__content'>
+    <Article @headline='Start' @isMain={{true}}>
+      <p class="article__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat
+        pretium nisi et fringilla. Curabitur pulvinar pulvinar enim, eget
+        sollicitudin erat eleifend et. Pellentesque ut nunc varius, accumsan
+        risus ut, ornare neque. Quisque convallis, orci ac commodo pharetra,
+        turpis leo sodales nunc, in suscipit velit eros quis est. Vestibulum
+        vitae metus nibh. Cras tellus erat, suscipit tincidunt consectetur at,
+        malesuada at mauris. Vestibulum ante ipsum primis in faucibus orci
+        luctus et ultrices posuere cubilia curae; Nullam pharetra efficitur
+        justo, et elementum urna iaculis ut. Pellentesque eget ornare ipsum. In
+        et nisi quis orci faucibus scelerisque. Sed rutrum mollis interdum. In
+        ut finibus mi. Suspendisse vel posuere lacus.</p>
+    </Article>
+    <Article @headline='Some important stuff'>
+      <p class="article__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat
+        pretium nisi et fringilla. Curabitur pulvinar pulvinar enim, eget
+        sollicitudin erat eleifend et. Pellentesque ut nunc varius, accumsan
+        risus ut, ornare neque. Quisque convallis, orci ac commodo pharetra,
+        turpis leo sodales nunc, in suscipit velit eros quis est. Vestibulum
+        vitae metus nibh. Cras tellus erat, suscipit tincidunt consectetur at,
+        malesuada at mauris. Vestibulum ante ipsum primis in faucibus orci
+        luctus et ultrices posuere cubilia curae; Nullam pharetra efficitur
+        justo, et elementum urna iaculis ut. Pellentesque eget ornare ipsum. In
+        et nisi quis orci faucibus scelerisque. Sed rutrum mollis interdum. In
+        ut finibus mi. Suspendisse vel posuere lacus.</p>
+    </Article>
+  </div>
+  {{!-- <Footer class='page-layout__footer' /> --}}
+</div>
 
 {{outlet}}
